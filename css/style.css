@@ -1,8 +1,8 @@
 body{
   background: gray;}
-a{
+nav a{
   text-decoration: none;}
-a:visited{
+nav a:visited{
   color: white;}
 .maClass{
   background: orange;
