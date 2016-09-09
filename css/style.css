@@ -1,3 +1,19 @@
 body{
-  background: gray;
-}
+  background: gray;}
+a{
+  text-decoration: none;}
+a:visited{
+  color: white;}
+.maClass{
+  background: orange;
+  color: gray;}
+.nav-top{
+  display: flex;
+  list-style-type: none;}
+.nav-top li{
+  padding: 0 0.5%;}
+
+.nav-bottom{
+  list-style-type: none;}
+.nav-bottom li{
+  font-size: 12px;}
