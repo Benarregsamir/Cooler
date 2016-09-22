@@ -17,3 +17,11 @@ nav a:visited{
   list-style-type: none;}
 .nav-bottom li{
   font-size: 12px;}
+header,article,footer{
+  border: 1px white solid;
+  background: darkgray;
+  padding: 5px 20px;
+  margin: 5px 0px;}
+footer p{
+  text-align: center;
+  font-size: 10px;}
