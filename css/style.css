@@ -1,12 +1,9 @@
-body{
-  background: gray;}
+
 nav a{
   text-decoration: none;}
 nav a:visited{
-  color: white;}
-.maClass{
-  background: orange;
-  color: gray;}
+  color: black;}
+
 .nav-top{
   display: flex;
   list-style-type: none;}

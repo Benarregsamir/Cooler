@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Cooler</title>
+    <link href="{{site.baseurl}}/css/w3.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
   </head>
   <body>
-<header>
+<header class="w3-light-grey">
   <h1>Welcome on our web site</h1>
   {% include nav.html navclass="nav-top" %}
 </header>
 <article>
-  <div class="container">
+  <div class="w3-container">
     <div class="row">
       {{content}}
     </div>
