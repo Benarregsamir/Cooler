@@ -3,7 +3,8 @@ nav a{
   text-decoration: none;}
 nav a:visited{
   color: black;}
-
+a{
+  text-decoration: none;}
 .nav-top{
   display: flex;
   list-style-type: none;}
@@ -34,3 +35,5 @@ footer p{
     text-decoration: none;
     color: black;
   }
+img{
+  width: 500px;}

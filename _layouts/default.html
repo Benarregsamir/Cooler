@@ -9,8 +9,13 @@
   <body>
 <header class="w3-light-grey">
   <div class="w3-container">
-    <h1>Welcome on our web site</h1>
-    {% include nav.html navclass="nav-top" %}
+      <h1>
+        <a href="index.html">
+          <span class="w3-jumbo w3-black w3-bottombar">Hi!</span>
+          <span class="w3-small w3-bottombar w3-border-black w3-padding-12">Welcome on our Magazine<span>
+        </a>
+      </h1>
+    {% include nav.html navclass="w3-navbar" %}
   </div>
 </header>
 <article class="w3-round">
@@ -23,8 +28,8 @@
 <footer class="w3-round">
   <div class="w3-container">
     {% include nav.html navclass="nav-bottom" %}
-    <p class="w3-tiny">Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
   </div>
+  <p class="w3-tiny">Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
 </footer>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57a80cf3ff0d6c6c"></script>
