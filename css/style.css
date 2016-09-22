@@ -14,21 +14,20 @@ ul{
 .nav-bottom,ul li{
   list-style-type: none;}
 .nav-bottom li{
-  font-size: 12px;}
+  font-size: 10px;}
 header,article,footer{
   border: 1px white solid;
   background: darkgray;
   padding: 5px 20px;
   margin: 5px 0px;}
 footer p{
-  text-align: center;
-  font-size: 10px;}
+  text-align: center;}
 .nArticle{
   border: solid white 1px;
   border-radius: 10px;
   margin: 5px 0px;
   padding: 0px 10px;}
-  .nArticle p:nth-child(6){
+  .nArticle p:nth-child(7){
     font-size: 10px;
     text-align: right;}
   .nArticle a{

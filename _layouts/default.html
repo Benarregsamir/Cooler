@@ -8,19 +8,25 @@
   </head>
   <body>
 <header class="w3-light-grey">
-  <h1>Welcome on our web site</h1>
-  {% include nav.html navclass="nav-top" %}
+  <div class="w3-container">
+    <h1>Welcome on our web site</h1>
+    {% include nav.html navclass="nav-top" %}
+  </div>
 </header>
-<article>
+<article class="w3-round">
   <div class="w3-container">
     <div class="row">
       {{content}}
     </div>
   </div>
 </article>
-<footer>
-  {% include nav.html navclass="nav-bottom" %}
-  <p>Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
+<footer class="w3-round">
+  <div class="w3-container">
+    {% include nav.html navclass="nav-bottom" %}
+    <p class="w3-tiny">Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
+  </div>
 </footer>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57a80cf3ff0d6c6c"></script>
   </body>
 </html>

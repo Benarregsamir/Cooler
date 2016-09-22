@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
+
 <ul>
 {% for news in site.posts %}
-<li class="nArticle"><a href="">
+<li class="nArticle">
   <h1>{{news.title}}</h1>
+<div class="addthis_native_toolbox"></div>
   <h3>{{news.meta}}</h3>
   <p>{{news.content}}</p>
   <p>{{news.date}}</p>
-</a></li>
+</li>
 {% endfor %}
 </ul>
