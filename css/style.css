@@ -12,8 +12,9 @@ nav a:visited{
   list-style-type: none;}
 .nav-top li{
   padding: 0 0.5%;}
-
-.nav-bottom{
+ul{
+  padding: 0;}
+.nav-bottom,ul li{
   list-style-type: none;}
 .nav-bottom li{
   font-size: 12px;}
@@ -25,3 +26,15 @@ header,article,footer{
 footer p{
   text-align: center;
   font-size: 10px;}
+.nArticle{
+  border: solid white 1px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  padding: 0px 10px;}
+  .nArticle p:nth-child(3){
+    font-size: 10px;
+    text-align: right;}
+  .nArticle a{
+    text-decoration: none;
+    color: black;
+  }
