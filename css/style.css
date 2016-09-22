@@ -28,12 +28,11 @@ footer p{
   border-radius: 10px;
   margin: 5px 0px;
   padding: 0px 10px;}
-  .nArticle p:nth-child(7){
+  .nArticle p:nth-child(8){
     font-size: 10px;
     text-align: right;}
   .nArticle a{
     text-decoration: none;
-    color: black;
-  }
+    color: black;}
 img{
   width: 500px;}
