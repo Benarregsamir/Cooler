@@ -4,8 +4,9 @@ layout: default
 <ul>
 {% for news in site.posts %}
 <li class="nArticle"><a href="">
-  <h2>{{news.title}}</h2>
-  <p>{{news.meta}}</p>
+  <h1>{{news.title}}</h1>
+  <h3>{{news.meta}}</h3>
+  <p>{{news.content}}</p>
   <p>{{news.date}}</p>
 </a></li>
 {% endfor %}
